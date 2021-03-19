@@ -19,7 +19,6 @@ async function run() {
     pitest.methods.balanceOf(recipientAddress).call()]))
 
     console.log(unlockedBalance,":", recipientBalance)
-
 }
 
 run()
